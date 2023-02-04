@@ -42,7 +42,11 @@ h1 {
 }
 
 img{
-    width: 500px;
+    width:450px;
     height: 260px;
-    margin: 10px 0;
+    margin: 10px;
+}
+
+table{
+    font-size:20px;
 }
