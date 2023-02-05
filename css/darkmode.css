@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    /* Used inspect element on google search page to get same color */
+    background-color: rgba(32,33,36,1);
 }
 
 .container{
