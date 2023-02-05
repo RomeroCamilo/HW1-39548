@@ -4,17 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
                                         
-    <link rel="stylesheet" type="text/css" href="css/lightmode.css">
+    <link id="currentStyle" rel="stylesheet" type="text/css" href="css/lightmode.css">
+    <!--LINKING OUR JAVASCEIPT-->
+    <script src = "mode.js"> </script>
 
     <title>Mini Bio</title>
 </head>
 <body>
     <div class="container">
         <h1>Mini Biography</h1>
+        <h3>Programmer: Camilo Romero</h3>
+        <a href="index.html"><button class="buttons">HOME</button></a>
+        <button id="toggle" class="buttons" onclick="swap()">DARK</button>
         <div class="centerImg">
             <img src="images/image2.jpeg">
         </div>
-        <a href="index.html"><button class="buttons">Home</button></a>
         <div class="centerImg">
             <img src="images/coding1.jpeg"> 
         </div>

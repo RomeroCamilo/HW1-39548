@@ -1,5 +1,4 @@
 function swap(){
-
     
 
     styling = document.getElementById('currentStyle');
@@ -7,11 +6,11 @@ function swap(){
 
     if(styling.getAttribute("href")==="css/lightmode.css"){
         styling.setAttribute("href","css/darkmode.css");
-        toggle.innerHTML = "Light";
+        toggle.innerHTML = "LIGHT";
 
     }
     else{
         styling.setAttribute("href","css/lightmode.css");
-        toggle.innerHTML = "Dark";
+        toggle.innerHTML = "DARK";
     }
 }
