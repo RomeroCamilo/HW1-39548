@@ -4,14 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
                                         
-    <link rel="stylesheet" type="text/css" href="css/lightmode.css">
+    <link id="currentStyle" rel="stylesheet" type="text/css" href="css/lightmode.css">
+    <!--LINKING OUR JAVASCEIPT-->
+    <script src = "mode.js"> </script>
 
     <title>Interests</title>
 </head>
 <body>
     <div class="container">
         <h1>Interests</h1>
-        <a href="index.html"><button class="buttons">Home</button></a>
+        <h3>Top 3</h3>
+        <a href="index.html"><button class="buttons">HOME</button></a>
+        <button id="toggle" class="buttons" onclick="swap()">DARK</button>
         <table>
             <tr>
                 <td> <img src="images/soccer.jpeg" style="height:300px;"/> </td>
@@ -19,9 +23,9 @@
                 <td> <img src="images/coding.jpeg" style="height:300px;"/> </td>
             </tr>
             <tr>
-                <td> <p>Soccer</p> </td>
-                <td> <p>Football</p> </td>
-                <td> <p>Coding</p> </td>
+                <td> <p>Soccer is one of my favorite sports to watch. My favorite team is F.C. Barcelona and Manchester United.</p> </td>
+                <td> <p>Football/NFL is extremely fun to watch. My favorite teams are the Giants and Bengals.</p> </td>
+                <td> <p>Coding is amazing with how much you can do with it. You can create almost anything through programming.</p> </td>
             </tr>
         </table>
     </div>
